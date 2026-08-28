@@ -1,0 +1,27 @@
+# Secretos locales — nunca se suben al repositorio
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Datos y modelos generados localmente
+data/
+models/
+*.csv
+!tests/**/*.csv
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Editores / OS
+.vscode/
+.idea/
+.DS_Store
